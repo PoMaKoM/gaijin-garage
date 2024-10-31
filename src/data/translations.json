@@ -1,0 +1,44 @@
+{
+    "lahguages": [
+        "pl",
+        "ru",
+        "en"
+    ],
+    "pl": {
+        "contacts": {
+            "title": "Zapraszamy do kontaktu!",
+            "email_title": "Adres e-mail",
+            "address_title": "Adres",
+            "address_value": "ul. Kanarkowa 4, Kraków",
+            "phone": "Telefon",
+            "opening_hours": "Godziny otwarcia",
+            "business_days": "Poniedziałek - Piątek",
+            "weekends": "Sobota"
+        }
+    },
+    "ru": {
+        "contacts": {
+            "title": "Контакты",
+            "email_title": "Адрес e-mail",
+            "address_title": "Адрес",
+            "address_value": "ул. Kanarkowa 4, Краков",
+            "phone": "Телефон",
+            "opening_hours": "Часы работы",
+            "business_days": "Понедельник - Пятница",
+            "weekends": "Суббота"
+        }
+    },
+    "en": {
+        "contacts": {
+            "title": "Contacts",
+            "email_title": "Address e-mail",
+            "address_title": "Address",
+            "address_value": "ul. Kanarkowa 4, Krakow",
+            "phone": "Phone",
+            "opening_hours": "Opening hours",
+            "business_days": "Monday - Friday",
+            "weekends": "Saturday"
+        }
+    },
+    "email": "yacevich00@gmail.com"
+}

@@ -1,0 +1,36 @@
+{{#with contacts}}
+<div class="wrapper">
+    <div class="container">
+        <div class="container-left">
+            {{> components/logo}}
+        </div>
+        <div class="container-right">
+            <h2>{{title}}</h2>
+            <p>
+                {{email_title}}: <a href="mailto:yacevich00@gmail.com">yacevich00@gmail.com</a>
+            </p>
+            <p>
+                {{address_title}}: <a href="https://maps.app.goo.gl/81gAfApgVMPdKChQ9">{{address_value}}</a>
+            </p>
+            <p>
+                {{phone}}: <a href="tel:796788660">+48 796 788 660</a>
+            </p>
+            <p>
+                Instagram: <a href="https://www.instagram.com/gaijingarage.pl/">@gaijingarage.pl</a>
+            </p>
+            <br>
+            <br>
+            <h2>
+                {{opening_hours}}:
+            </h2>
+            <p>
+                {{business_days}}: 09:00 - 19:00
+            </p>
+            <p>
+                {{weekends}}: 10:00 - 15:00
+            </p>
+        </div>
+    </div>
+    <p class="language-select"><a href="/en">EN</a>|<a href="/">PL</a>|<a href="/ru">RU</a> </p>
+</div>
+{{/with}}
