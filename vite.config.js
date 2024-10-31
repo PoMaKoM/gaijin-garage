@@ -3,6 +3,7 @@ import handlebars from '@vituum/vite-plugin-handlebars'
 import postcss from '@vituum/vite-plugin-postcss'
 
 export default {
+  base: '/gaijin-garage/',
   plugins: [
     vituum(),
     handlebars({
