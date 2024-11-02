@@ -10,11 +10,20 @@ body {
     margin: 0;
 }
 
+h2 {
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+}
+
+p {
+    font-size: 18px;
+}
+
 a {
     cursor: pointer;
     text-decoration: none;
     color: var(--blue, #0036F3);
-    font-size: 18px;
     font-weight: 600;
 }
 
@@ -26,10 +35,10 @@ a {
     font-style: normal;
 }
 
-
 .wrapper {
     width: 100vw;
-    height: 100vh;
+    height: 100dvh;
+    min-height: 715px;
     padding: 125px 200px;
     position: relative;
 }
@@ -58,18 +67,13 @@ a {
     text-align: center;
 }
 
-.container-right h2 {
-    font-size: 32px;
-    font-style: normal;
-    font-weight: 600;
-}
-
 .container-right p {
     margin-top: 0.75rem;
 }
 
 .language-select {
     text-align: center;
+    margin-top: 20px;
 }
 
 .language-select a {
@@ -77,21 +81,23 @@ a {
 }
 
 @media screen and (max-width: 1200px) {
+    h2 {
+        font-size: 24px;
+    }
+
+    p {
+        font-size: 15px;
+    }
+
     .wrapper {
-        width: 100vw;
-        height: 100vh;
-        padding: 50px;
-        position: relative;
+        min-height: 665px;
+        padding: 50px 25px;
     }
 
     .container {
         display: flex;
         flex-direction: column;
-        height: 100%;
-        width: 100%;
-        justify-content: start;
-        align-items: center;
-        gap: 40px;
+        margin-top: -50px;
     }
 
     .container-left {
@@ -103,9 +109,5 @@ a {
         flex-direction: column;
         align-items: center;
         min-width: 250px;
-    }
-
-    .open-hours {
-        max-width: 220px;
     }
 }

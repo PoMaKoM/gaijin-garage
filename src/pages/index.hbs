@@ -1,5 +1,4 @@
 {{#> layouts/body}}
-{{#with pl}}
-{{> sections/contacts}}
-{{/with}}
+{{#*inline "lang"}}pl{{/inline}}
+{{#with pl}}{{> sections/contacts}}{{/with}}
 {{/layouts/body}}
